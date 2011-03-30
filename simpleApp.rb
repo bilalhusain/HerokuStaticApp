@@ -3,7 +3,7 @@ Bundler.require
 
 class SimpleApp < Sinatra::Base
 	get '/' do
-		haml :index, :layout => false
+		haml :home, :layout => false
 	end
 end
 
