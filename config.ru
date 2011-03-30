@@ -4,3 +4,5 @@ Bundler.setup
 
 require File.dirname(__FILE__) + '/simpleApp'
 
+run SimpleApp
+
